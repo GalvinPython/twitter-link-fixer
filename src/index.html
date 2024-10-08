@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Link Fixer</title>
+    <link rel="stylesheet" href="./public/styles.css" />
+    <link rel="shortcut icon" href="./public/icon.svg" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Fix your Twitter links easily with Twitter Link Fixer"
+    />
+    <meta name="keywords" content="Twitter, Link Fixer, URL, Embed" />
+  </head>
+  <body>
+    <header>
+      <h1>Twitter Link Fixer</h1>
+      <h2>Fix your Twitter links easily</h2>
+    </header>
+    <div>
+      <label for="inputField">URL:</label>
+      <input type="text" id="inputField" />
+    </div>
+    <div>
+      <label for="dropdownMenu">Embed Fixer:</label>
+      <select id="dropdownMenu">
+        <option value="fixupx.com">fixupx.com</option>
+        <option value="fixvx.com">fixvx.com</option>
+        <option value="fxtwitter.com">fxtwitter.com</option>
+        <option value="stupidpenisx.com">stupidpenisx.com</option>
+        <option value="twittpr.com">twittpr.com</option>
+        <option value="vxtwitter.com">vxtwitter.com</option>
+      </select>
+    </div>
+    <div>
+      <label for="outputBox">New Link :0</label>
+      <input type="text" id="outputBox" readonly />
+      <button onclick="copyToClipboard()">Copy</button>
+    </div>
+    <div>
+      <b>What is Twitter Link Fixer?</b>
+      <p>
+        Twitter embeds on Discord often don't work well, so many "Twitter Embed
+        Fixers" exist. This site makes it easy to fix URLs, especially on mobile
+        where it's harder to change links.
+      </p>
+    </div>
+    <footer>
+      <p>
+        Follow me on
+        <a href="https://twitter.com/reallygalvin" target="_blank">Twitter</a
+        >.<br />And this site is open-source!
+        <a
+          href="https://github.com/galvinpython/twitter-link-fixer"
+          target="_blank"
+          >GitHub.</a
+        ><br />Build 1
+      </p>
+    </footer>
+    <script src="./public/scripts.js"></script>
+  </body>
+</html>
